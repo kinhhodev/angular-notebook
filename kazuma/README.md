@@ -2,7 +2,29 @@
 
 ## Overview
 This project discover some features in Angular 18.2.12 by making a website "Employee Management"
+Video: https://www.youtube.com/watch?v=QjaNv7s1gW0
 + CSS - use framework tabler - https://tabler.io/
+
+## Component & Service syntax generation
+
+### Component 
+
+Full command: ng generate component <name_component>
+Short command: ng g c <name_component>
+
+### Service
+
+Full command: ng generate service <name_service>
+Short command: ng g s <name_service>
+
+## Binding
+
+**Interpolation**: binding 1 way from BE to FE - {{}}
+**ngModel**: binding 2 way FE <-> BE - [(ngModel)] import FormModule
+**Attribute Binding**: Interpolation: binding 1 way from BE to FE - [attribute], ex: input [value]="<field_name>"
+**Event binding**: 1 way binding from FE -> BE. Handle event receive from End-user and send to BE declared method
+
+## 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
