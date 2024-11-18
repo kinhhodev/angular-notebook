@@ -27,9 +27,12 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "public/css/tabler.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "public/js/tabler.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
