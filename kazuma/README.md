@@ -24,7 +24,17 @@ Short command: ng g s <name_service>
 **Attribute Binding**: Interpolation: binding 1 way from BE to FE - [attribute], ex: input [value]="<field_name>"
 **Event binding**: 1 way binding from FE -> BE. Handle event receive from End-user and send to BE declared method
 
-## 
+## Directives
+**Component Directives**: use tag elements ex: <component-name></component-name>
+**Structural Directives**: is directives for condition, use CommonModule. ex: *ngIf, *ngFor - ![Structural Directives](https://v17.angular.io/guide/structural-directives)
+**Attribute Directives**: is directives to change styles, classes. ex: *ngStyle, *ngClass
+
+## Form
+Reactive Form
+
+## Guard
+**CanActivate**: check user is logged in or not
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 

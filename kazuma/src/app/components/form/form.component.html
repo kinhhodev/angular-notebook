@@ -1,0 +1,25 @@
+<form [formGroup]="coreForm" action="" method="post" class="card" data-bitwarden-watching="1">
+    <div class="card-header">
+      <h4 class="card-title">Form elements</h4>
+    </div>
+    <div class="card-body">
+      <div class="row g-5">
+        <div class="col-xl-4">
+          <div class="row">
+            <div class="col-md-6 col-xl-12">
+              <div class="mb-3">
+                <label class="form-label">Text</label>
+                <input type="text" class="form-control" formControlName="firstName" name="firstName" placeholder="Input placeholder">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer text-end">
+        <div class="d-flex">
+            <a href="#" class="btn btn-link">Cancel</a>
+            <button type="submit" class="btn btn-primary ms-auto">Send data</button>
+        </div>
+    </div>
+</form>

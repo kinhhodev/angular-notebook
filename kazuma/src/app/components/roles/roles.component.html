@@ -1,8 +1,4 @@
-
-<input type="text" value="{{firstName}}" />
-
-<input type="text" [value]="firstName" />
-
-<input type="text" [(ngModel)]="firstName" />
-
-<button type="button" (click)="alertFirstName()">Show First Name</button>
+<div *ngFor="let role of roles">
+    <p>{{role.roleId}}</p>
+    <p>{{role.role}}</p>
+</div>
